@@ -1,6 +1,7 @@
 # This file is managed by Keycloakify, do not edit it manually.
 
 # === Owned files start ===
+# login/assets/img/default-logo.svg
 # === Owned files end =====
 
 # === @keycloakify/login-ui-storybook v250004.2.0 ===
@@ -75,7 +76,6 @@
 /login/shared/getColorScheme.ts
 /login/shared/redirectUrlOrigin.ts
 /login/shared/resolveAssetUrl.ts
-/login/assets/img/default-logo.svg
 /login/assets/img/placeholder.svg
 /login/assets/img/shape.svg
 /login/components/Template/Defaults.ts

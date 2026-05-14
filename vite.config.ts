@@ -11,7 +11,7 @@ export default defineConfig({
     tailwindcss(),
     keycloakify({
       accountThemeImplementation: "none",
-      themeName: "your-theme-name",
+      themeName: "shadcn",
       environmentVariables: [
         {
           name: "SHADCN_THEME_LOGO_WHITE_URL",
