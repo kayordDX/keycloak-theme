@@ -3,6 +3,7 @@ import { keycloakify } from "keycloakify/vite-plugin";
 import { defineConfig } from "vite";
 import path from "node:path";
 import tailwindcss from "@tailwindcss/vite";
+import { buildEmailTheme } from "keycloakify-emails";
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -30,6 +31,26 @@ export default defineConfig({
         { name: "SHADCN_THEME_FONT", default: "inter" },
         { name: "SHADCN_THEME_PLACEHOLDER", default: "true" },
       ],
+      postBuild: async (buildContext) => {
+        await buildEmailTheme({
+          templatesSrcDirPath: path.join(
+            buildContext.themeSrcDirPath,
+            "email",
+            "templates",
+          ),
+          i18nSourceFile: path.join(
+            buildContext.themeSrcDirPath,
+            "email",
+            "i18n.ts",
+          ),
+          themeNames: buildContext.themeNames,
+          keycloakifyBuildDirPath: buildContext.keycloakifyBuildDirPath,
+          locales: ["en"],
+          cwd: import.meta.dirname,
+          environmentVariables: buildContext.environmentVariables,
+          esbuild: {}, // optional esbuild options
+        });
+      },
     }),
   ],
   resolve: {
