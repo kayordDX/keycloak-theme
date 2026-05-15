@@ -90,9 +90,6 @@ importers:
       '@eslint/js':
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.3.0(jiti@2.7.0))
-      '@keycloakify/login-ui-storybook':
-        specifier: ~250004.2.0
-        version: 250004.2.0
       '@storybook/react-vite':
         specifier: ^9.0.4
         version: 9.1.20(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(storybook@9.1.20(@testing-library/dom@10.4.1)(vite@8.0.12(@types/node@24.12.4)(esbuild@0.25.12)(jiti@2.7.0)))(typescript@6.0.3)(vite@8.0.12(@types/node@24.12.4)(esbuild@0.25.12)(jiti@2.7.0))
@@ -503,9 +500,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
-
-  '@keycloakify/login-ui-storybook@250004.2.0':
-    resolution: {integrity: sha512-6e+jCEgtrw7+M5x6W42IIh3RPytB99gxFjmvmw20CwSm6+JW/mGXcWHHqJ//hbFEnOUNe14sw9wlUfokinAhcw==}
 
   '@keycloakify/login-ui@250004.7.0':
     resolution: {integrity: sha512-WfZXistQFVRFtYqHNrDEWsYwjGL0soiSHOGO8hsbeMM8KVxTGnOps3RdgwC7zpaIPnJia3Ya0S9HuQ33UErvbg==}
@@ -2977,8 +2971,6 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
-
-  '@keycloakify/login-ui-storybook@250004.2.0': {}
 
   '@keycloakify/login-ui@250004.7.0(tsafe@1.8.12)':
     dependencies:
