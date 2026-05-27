@@ -91,7 +91,7 @@ export const EmailLayout = ({
                     <Section style={logo}>
                         <Img
                             src={companyLogo}
-                            width={200}
+                            width={50}
                             height={50}
                             alt="Company Name"
                             style={logoImage}

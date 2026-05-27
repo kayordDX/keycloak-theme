@@ -11,5 +11,5 @@ https://docs.keycloakify.dev/starter-themes/shadcn-ui-tailwind
 ```bash
 pnpm build-keycloak-theme
 
-cp dist_keycloak/keycloak-theme-for-kc-all-other-versions.jar ../online/other/keycloakThemes/.
+cp dist_keycloak/keycloak-theme-for-kc-all-other-versions.jar ../online/container/keycloak/themes/.
 ```
