@@ -69,7 +69,7 @@
 /email/text/org-invite.ftl
 /email/text/password-reset.ftl
 
-# === @oussemasahbeni/keycloakify-login-shadcn v250004.0.21 ===
+# === @oussemasahbeni/keycloakify-login-shadcn v250004.0.22 ===
 /components/ThemeProvider.tsx
 /login/i18n.ts
 /login/index.css
